@@ -1,55 +1,95 @@
-# URL Cruncher
+<div align="center" style="margin-top: 30px;">
+<img src="public/url-cruncher-github-logo.avif" height="150px" width="auto" /> 
+<h3>
+ URL Cruncher
+</h3>
+<p>Created for crunch all these long URLs.</p>
+</div>
 
-![URL Cruncher Logo](https://raw.githubusercontent.com/marcnb21/url-cruncher/main/public/url-cruncher-github-logo.avif)
+<div align="center">
+    <a href="#" target="_blank">
+        Preview
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#-getting-started">
+        Getting Started
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#-commands">
+        Commands
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#-license">
+        License
+    </a>
+    
+</div>
 
-## Description
-URL Cruncher is a URL shortening application that allows users to convert long links into shorter, more manageable versions. This project is designed to be fast, efficient, and easy to use. The application is hosted on Vercel at [URL Cruncher](https://url-cruncher.vercel.app).
+<p></p>
 
-## Technologies Used
-- Next.js
-- MongoDB
-- Node.js
+<div align="center">
 
-## Features
-- Quickly shorten URLs securely.
-- Clean and easy-to-navigate user interface.
-- Ability to track and analyze the usage of shortened links.
+![Next Badge](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/marcnb21/url-cruncher)
+![GitHub issues](https://img.shields.io/github/issues/marcnb21/url-cruncher)
+![GitHub forks](https://img.shields.io/github/forks/marcnb21/url-cruncher)
+![GitHub PRs](https://img.shields.io/github/issues-pr/marcnb21/url-cruncher)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
 
-## Live Application
+</div>
+
+## 🛠️ Stack
+
+- [**Next.js**](https://nextjs.org/) - The React Framework for the Web.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
+- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [**tailwindcss-animated**](https://github.com/new-data-services/tailwindcss-animated) - Extended animation utilities for Tailwind CSS.
+- [**fontsource**](https://fontsource.org/) - Self-host Open Source fonts in neatly bundled NPM packages.
+
+## 👁️ Live Application
 Access the live application here: [URL Cruncher](https://url-cruncher.vercel.app)
 
-## Getting Started
-To get a local copy up and running follow these simple steps.
+## 🚀 Getting Started
 
-### Prerequisites
-Ensure you have the following installed:
-- Node.js
+1. [Fork](https://github.com/marcnb21/url-cruncher/fork) or clone this repository.
 
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/marcnb21/url-cruncher.git
-   ```
+```bash
+git clone git@github.com:marcnb21/url-cruncher.git
+```
 
-2. **Navigate to the repository directory:**
-    ```bash
-   cd url-cruncher
-   ```
+2. Install the dependencies:
 
-3. **Install dependencies:**
-    ```bash
-   npm install
-   ```
+```bash
+# Install dependencies:
+npm install
+```
 
-### Usage
-1. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-    This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
+3. Run the development server:
 
-### Contributions
+```bash
+# Run dev server:
+npm run dev
+```
+
+4. Open [**http://localhost:3000**](http://localhost:3000/) with your browser to see the result 🚀
+
+
+### 🤝 Contributing
 Contributions are welcome. Please read CONTRIBUTING.md for more information on how to contribute to the project.
 
-### License
+<a href="https://github.com/marcnb21/url-cruncher/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=marcnb21/url-cruncher" />
+</a>
+
+## 🧞 Commands
+
+|     | Command          | Action                                       |
+| :-- |:-----------------|:---------------------------------------------|
+| ⚙️  | `dev` or `start` | Starts local dev server at `localhost:3000`. |
+| ⚙️  | `build`          | Build your production site to `./dist/`.     |
+| ⚙️  | `start`          | Start production site before build.          |
+| ⚙️  | `lint`           | Run ESLint to catch errors                   |
+
+## 🔑 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
