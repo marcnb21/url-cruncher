@@ -74,7 +74,7 @@ npm run dev
 4. Open [**http://localhost:3000**](http://localhost:3000/) with your browser to see the result 🚀
 
 
-### 🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome. Please read CONTRIBUTING.md for more information on how to contribute to the project.
 
 <a href="https://github.com/marcnb21/url-cruncher/graphs/contributors">
