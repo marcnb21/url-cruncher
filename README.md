@@ -87,7 +87,7 @@ Contributions are welcome. Please read CONTRIBUTING.md for more information on h
 | :-- |:--------|:---------------------------------------------|
 | ⚙️  | `dev`   | Starts local dev server at `localhost:3000`. |
 | ⚙️  | `build` | Build your production site to `./dist/`.     |
-| ⚙️  | `start` | Start production site before build.          |
+| ⚙️  | `start` | Start production site after build.          |
 | ⚙️  | `lint`  | Run ESLint to catch errors                   |
 
 ## 🔑 License
